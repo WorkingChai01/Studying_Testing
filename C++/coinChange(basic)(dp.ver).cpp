@@ -1,4 +1,7 @@
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
+//in order to standardize
+#include <iostream>
+#include <vector>
 using namespace std;
 typedef long long ll;
 

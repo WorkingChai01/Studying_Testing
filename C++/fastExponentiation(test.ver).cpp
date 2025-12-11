@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
+//in order to standardize
+#include <iostream>
 using namespace std;
 
 int fasterPower(int A, int B){

@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
+//in order to standardize
+#include <iostream>
 using namespace std;
 
 void hannoi(int n,char a,char b,char c){

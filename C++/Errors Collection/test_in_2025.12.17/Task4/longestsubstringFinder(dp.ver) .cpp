@@ -60,10 +60,10 @@ int main(){
         }
         //同等长字串，取字典序最小
         while(counter--){
-            result.push_back(str2.substr(resultlistX[counter] - max + 1, max));
+            result.push_back(str1.substr(resultlistX[counter] - max + 1, max));
         }
         output = result[0];
-        for(int i = 1; i < result.size() - 1; i++){
+        for(int i = 1; i < result.size(); i++){
             if(output > result[i]){
                 output = result[i];
             }
